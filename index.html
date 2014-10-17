@@ -19,10 +19,20 @@
 </ul>
 
 <ul>
-    <li></li>
     <li>git commit -a -m "message" [adds and commits with "message"]</li>
     <li>git reset --soft HEAD^ [resets last commit]</li>
-    <li></li>
+    <li>git commit --amend -m "message" [add file to last commit]</li>
+    <li>git reset --hard HEAD^ [undoes last commit and all changes]</li>
+    <li>git reset --hard HEAD^^ [undoes last two commits and all changes]</li>
+    <li>git checkout -- filename [discards changes to staging of files]</li>
+</ul>
+
+<ul>
+    <li>git push -u origin master [origin is repository name, master is local branch]</li>
+    <li>git push [will push to latest -u specification]</li>
+    <li>git pull [pulls changes down]</li>
+    <li>git remote add name adress [adds new remote repos]</li>
+    <li>git remote rm name [removes remote repos]</li>
 </ul>
 
 <h2>Need to know</h2>
